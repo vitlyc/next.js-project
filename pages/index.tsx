@@ -43,6 +43,8 @@ export const getStaticProps: GetStaticProps<HomeProps> = async () => {
       firstCategory,
     }
   );
+  console.log(process.env.NEXT_PUBLIC_DOMAIN);
+
   return {
     props: {
       menu,
